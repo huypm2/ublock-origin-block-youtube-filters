@@ -16,7 +16,7 @@ const allBlockTexts = fs.readFileSync('block-texts.txt', 'utf-8');
 
 allBlockTexts.split(/\r?\n/).forEach((line) => {
 	ublockFilters.forEach((filter) => {
-		fs.appendFileSync('filters.txt', `${filter.replace('//', `/${line}/`)}\n`);
+		if (filter) fs.appendFileSync('filters.txt', `${filter.replace('//', `/${line}/`)}\n`);
 	});
 });
 
