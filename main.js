@@ -10,6 +10,14 @@ const ublockFilters = [
 	'www.youtube.com##ytd-video-renderer:has-text(//i)',
 	'www.youtube.com##ytd-radio-renderer:has-text(//i)',
 	'www.youtube.com###content-section:has-text(//i)',
+
+	'www.youtube.com##app:has(.c4-tabbed-header-page-header-section:has-text(//i))',
+	'www.youtube.com###ytm-media-item:has-text(//i)',
+	'www.youtube.com##ytm-compact-video-renderer:has-text(//i)',
+	'www.youtube.com##ytm-rich-item-renderer:has-text(//i)',
+	'www.youtube.com##ytm-video-renderer:has-text(//i)',
+	'www.youtube.com##ytm-radio-renderer:has-text(//i)',
+	'www.youtube.com##app:has(.watch-below-the-player:has-text(//i))',
 ];
 
 const allBlockTexts = fs.readFileSync('block-texts.txt', 'utf-8');
