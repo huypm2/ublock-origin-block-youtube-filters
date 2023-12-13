@@ -8,6 +8,7 @@ const ublockFilters = [
 	'www.youtube.com##ytd-compact-video-renderer:has-text(//i)',
 	'www.youtube.com##ytd-rich-item-renderer:has-text(//i)',
 	'www.youtube.com##ytd-video-renderer:has-text(//i)',
+	'www.youtube.com##ytd-radio-renderer:has-text(//i)',
 	'www.youtube.com###content-section:has-text(//i)',
 ];
 
