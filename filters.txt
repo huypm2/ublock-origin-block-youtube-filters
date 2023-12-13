@@ -1,0 +1,5 @@
+www.youtube.com##ytd-rich-item-renderer:has(#details:has-text(Lâm))
+www.youtube.com##ytd-rich-item-renderer:has(#details:has-text(Review))
+www.youtube.com##ytd-video-renderer:has(.yt-simple-endpoint:has-text(Lâm))
+www.youtube.com##ytd-channel-renderer:has(.yt-simple-endpoint:has-text(Lâm))
+www.youtube.com###primary:has-text(Lâm)
