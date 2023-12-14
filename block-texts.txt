@@ -29,4 +29,6 @@ anh ba phải tv
 hưng troll
 quý11n
 hậu cáo
-phương .* dưỡng
+phương.*dưỡng
+phương hữu.*
+ntn
