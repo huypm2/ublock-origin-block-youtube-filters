@@ -13,7 +13,7 @@ const ublockFilters = [
 	'www.youtube.com###content-section:has-text(//i)',
 	// MOBILE
 	'm.youtube.com##.feed-item:has-text(//i)',
-	'm.youtube.com##body:has(ytm-slim-video-metadata-section-renderer:has-text(//i)) .player-container',
+	'm.youtube.com##body:has(ytm-slim-video-metadata-section-renderer:has-text(//i))',
 	'm.youtube.com##shorts-video:has-text(//i)',
 	'm.youtube.com##.reel-item-endpoint:has-text(//i)',
 ];
