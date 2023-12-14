@@ -3,6 +3,7 @@ const fs = require('fs');
 fs.writeFileSync('./filters.txt', '');
 
 const ublockFilters = [
+	// DESKTOP
 	'www.youtube.com##ytd-app:has(#above-the-fold:has-text(//i))',
 	'www.youtube.com##ytd-app:has(#inner-header-container:has-text(//i))',
 	'www.youtube.com##ytd-compact-video-renderer:has-text(//i)',
@@ -10,14 +11,11 @@ const ublockFilters = [
 	'www.youtube.com##ytd-video-renderer:has-text(//i)',
 	'www.youtube.com##ytd-radio-renderer:has-text(//i)',
 	'www.youtube.com###content-section:has-text(//i)',
-
-	'www.youtube.com##app:has(.c4-tabbed-header-page-header-section:has-text(//i))',
-	'www.youtube.com###ytm-media-item:has-text(//i)',
-	'www.youtube.com##ytm-compact-video-renderer:has-text(//i)',
-	'www.youtube.com##ytm-rich-item-renderer:has-text(//i)',
-	'www.youtube.com##ytm-video-renderer:has-text(//i)',
-	'www.youtube.com##ytm-radio-renderer:has-text(//i)',
-	'www.youtube.com##app:has(.watch-below-the-player:has-text(//i))',
+	// MOBILE
+	'm.youtube.com##.feed-item:has-text(//i)',
+	'm.youtube.com##body:has(ytm-slim-video-metadata-section-renderer:has-text(//i)) .player-container',
+	'm.youtube.com##shorts-video:has-text(//i)',
+	'm.youtube.com##.reel-item-endpoint:has-text(//i)',
 ];
 
 const allBlockTexts = fs.readFileSync('block-texts.txt', 'utf-8');
