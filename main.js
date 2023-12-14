@@ -16,6 +16,7 @@ const ublockFilters = [
 	'm.youtube.com##body:has(ytm-slim-video-metadata-section-renderer:has-text(//i))',
 	'm.youtube.com##shorts-video:has-text(//i)',
 	'm.youtube.com##.reel-item-endpoint:has-text(//i)',
+	'm.youtube.com##body:has(.compact-media-item:has-text(//i))',
 ];
 
 const allBlockTexts = fs.readFileSync('block-texts.txt', 'utf-8');
