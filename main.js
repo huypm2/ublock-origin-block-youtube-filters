@@ -11,6 +11,8 @@ const ublockFilters = [
 	'www.youtube.com##ytd-video-renderer:has-text(//i)',
 	'www.youtube.com##ytd-radio-renderer:has-text(//i)',
 	'www.youtube.com###content-section:has-text(//i)',
+	'www.youtube.com###shorts-container:has-text(//i)',
+	'www.youtube.com##.ytd-reel-item-renderer:has-text(//i)',
 	// MOBILE
 	'm.youtube.com##.feed-item:has-text(//i)',
 	'm.youtube.com##body:has(ytm-slim-video-metadata-section-renderer:has-text(//i))',
